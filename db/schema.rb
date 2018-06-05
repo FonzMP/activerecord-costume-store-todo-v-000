@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "location"
     t.string "theme"
+    t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
