@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 3) do
   create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
     t.string "location"
-    t.string "size"
+    t.string "theme"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
